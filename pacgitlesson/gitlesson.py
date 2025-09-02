@@ -1,10 +1,12 @@
 def plus(a, b):
     return a + b
 
-text = "new text"
+def mul(a, b):
+    return a * b
 
 def minus(a, b):
     return a - b
 
 print(plus(4,3))
 print(minus(5, 2))
+print(mul(2, 5))
